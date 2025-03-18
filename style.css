@@ -1,0 +1,88 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: rgb(64, 143, 109);
+  }
+  .container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+   
+  }
+  
+  .header{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+  }
+  .header span[value="tomato"]{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: tomato;
+    cursor: pointer;
+  }
+  .header span[value="teal"]{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: teal;
+    cursor: pointer;
+  }
+  .header span[value="slateblue"]{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: slateblue;
+    cursor: pointer;
+  }
+  .header span[value="orangered"]{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: orangered;
+    cursor: pointer;
+  }
+  .header span[value="magneta"]{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: magenta;
+    cursor: pointer;
+  }
+  .header span[value="deeppink"]{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: deeppink;
+    cursor: pointer;
+  }
+  
+  .text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-family: "Henny Penny", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    font-size: 55px;
+    text-align: center;
+  }
+  
+  

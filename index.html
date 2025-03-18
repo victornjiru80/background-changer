@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Background Color Changer</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">
+
+     <link rel="stylesheet" href="style.css">
+    </head>
+
+<body >
+  <div class="container" id="box">
+    <div class="header">
+      <span value="tomato" class="color1"></span>
+      <span value="teal" class="color1"></span>
+      <span value="slateblue" class="color1"></span>
+      <span value="orangered" class="color1"></span>
+      <span value="magneta" class="color1"></span>
+      <span value="deeppink" class="color1"></span>
+    </div>
+  </div>
+
+  <div class="text">
+    Background  <br>
+    Changer !
+  </div>
+
+  <script>
+    let colors = document.querySelectorAll(".color1");
+    let arr = ['tomato','teal','slateblue','orangered','magenta','deeppink'];
+
+    colors.forEach((item,index) =>{
+      item.addEventListener('click',()=>{
+        document.body.style.backgroundColor = arr[index] ;
+      })
+    })
+  </script>
+</body>
+</html>
